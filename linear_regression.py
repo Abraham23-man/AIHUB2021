@@ -9,3 +9,5 @@ x = x.reshape(-1, 1)
 model = LinearRegression()
 model.fit(x, y)
 
+print(model.coef_)
+print(model.intercept_)
